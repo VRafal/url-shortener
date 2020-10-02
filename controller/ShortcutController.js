@@ -10,7 +10,7 @@ createShortcut = (req, res) => {
 		url: url,
 		id: uidVal,
 		createdAt: Date(Date.now()),
-		shortURL: `http://127.0.0.1/r/${uidVal}`
+		shortURL: `http://127.0.0.1:8080/r/${uidVal}`
 	};
 
 	pushJson(data);

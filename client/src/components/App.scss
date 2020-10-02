@@ -1,0 +1,72 @@
+// https://color.adobe.com/pl/create/color-wheel
+// $colorA: #021f59;
+// $colorB: #144673;
+// $colorC: #05aff2;
+// $colorD: #dfedf2;
+// $colorE: #05c7f2;
+
+$colorA: #f1f2f3;
+$colorB: #4c4e53;
+$colorC: #afb2b8;
+$colorD: #dededf;
+// background: linear-gradient(to bottom right,#f53e56,#ff9a5a);
+
+@mixin transition($x...) {
+	-webkit-transition: $x;
+	-moz-transition: $x;
+	-ms-transition: $x;
+	-o-transition: $x;
+	transition: $x;
+}
+
+.usApp {
+	border: 2px solid $colorB;
+	background-color: $colorA;
+	border-radius: 20px;
+	color: $colorA;
+	padding: 5px 6px;
+	display: inline-block;
+	@include transition(width 1s ease-out 0s, background-color 0.25s);
+	// display: inline-flex;
+	// align-items: center;
+
+	&.expanded {
+		background-color: $colorD;
+	}
+
+	p {
+		margin: 0 0 0 10px;
+		padding: 0;
+		color: $colorB;
+	}
+
+	.usIco {
+		width: 20px;
+	}
+
+	.usWelcomeButton {
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+
+		p {
+			display: none;
+		}
+
+		&:hover {
+			p {
+				display: block;
+			}
+		}
+	}
+
+	.usShortener {
+		display: inline-flex;
+		align-items: center;
+
+		.usForm {
+			display: inline-flex;
+			align-items: center;
+		}
+	}
+}

@@ -9,7 +9,7 @@ function Shortener(props) {
 	const [shortURL, setShortURL] = useState(null);
 
 	return (
-		<div className="usShortener">
+		<div className="usShortener usContainer">
 			{shortURL ? (
 				<Result shortURL={shortURL} />
 			) : (
@@ -20,14 +20,16 @@ function Shortener(props) {
 						createShortURL(
 							url,
 							(response) => {
-								//setShortURL(response.data.data.shortURL);
+								setShortURL(response.data.data.shortURL);
 							},
-							(error) => {}
+							(error) => {
+								// TODO
+							}
 						);
 					}}
 				/>
 			)}
-			<img src={IcoCancel} className="usIco" onClick={props.onCancle} />
+			<img src={IcoCancel} className="usIco usIcoCancle" onClick={props.onCancle} title="Close" />
 		</div>
 	);
 }

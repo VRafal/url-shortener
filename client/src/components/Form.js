@@ -6,8 +6,8 @@ function Form(props) {
 	const actualURL = window.location.href;
 
 	return (
-		<div className="usForm">
-			<p>URL:</p>
+		<div className="usForm usContainer">
+			<label for="usURLInput">URL:</label>
 			<input
 				name="url"
 				id="usURLInput"

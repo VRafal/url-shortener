@@ -2,26 +2,26 @@ require("dotenv").config();
 const { loadJson } = require("../service/DataService");
 
 // Save sampel data
-saveJson([
-	{
-		url: "https://www.smashingmagazine.com/",
-		id: "0a8llI",
-		createdAt: "",
-		shortURL: "http://127.0.0.1/r/0a8llI"
-	},
-	{
-		url: "https://thefwa.com/",
-		id: "RNLZhv",
-		createdAt: "",
-		shortURL: "http://127.0.0.1/r/RNLZhv"
-	},
-	{
-		url: "https://www.awwwards.com/",
-		id: "g0utIt",
-		createdAt: "",
-		shortURL: "http://127.0.0.1/r/g0utIt"
-	}
-]);
+// saveJson([
+// 	{
+// 		url: "https://www.smashingmagazine.com/",
+// 		id: "0a8llI",
+// 		createdAt: "",
+// 		shortURL: "http://127.0.0.1/r/0a8llI"
+// 	},
+// 	{
+// 		url: "https://thefwa.com/",
+// 		id: "RNLZhv",
+// 		createdAt: "",
+// 		shortURL: "http://127.0.0.1/r/RNLZhv"
+// 	},
+// 	{
+// 		url: "https://www.awwwards.com/",
+// 		id: "g0utIt",
+// 		createdAt: "",
+// 		shortURL: "http://127.0.0.1/r/g0utIt"
+// 	}
+// ]);
 
 redirectTo = (req, res) => {
 	const jsonData = loadJson();

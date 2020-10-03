@@ -4,7 +4,7 @@ import IcoLink from "../images/url-2.svg";
 function WelcomButton(props) {
 	return (
 		<div className="usWelcomeButton usContainer" onClick={props.onClick}>
-			<img src={IcoLink} className="usIco usIcoLink" />
+			<img src={IcoLink} className="usIco usIcoLink" alt="" />
 			<p>Create short link</p>
 		</div>
 	);

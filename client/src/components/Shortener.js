@@ -29,7 +29,7 @@ function Shortener(props) {
 					}}
 				/>
 			)}
-			<img src={IcoCancel} className="usIco usIcoCancle" onClick={props.onCancle} title="Close" />
+			<img src={IcoCancel} className="usIco usIcoCancle" onClick={props.onCancle} title="Close" alt="" />
 		</div>
 	);
 }

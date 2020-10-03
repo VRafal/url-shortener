@@ -5,8 +5,8 @@ import IcoCopy from "../images/copy-2.svg";
 function Result(props) {
 	return (
 		<div className="usResult usContainer">
-			<label for="usShortURLInput">Short URL:</label>
-			<input id="usShortURLInput" name="shortURL" value={props.shortURL} disabled="true" />
+			<label htmlFor="usShortURLInput">Short URL:</label>
+			<input id="usShortURLInput" name="shortURL" value={props.shortURL} disabled />
 			<img
 				src={IcoCopy}
 				className="usIco usIcoCopy"
@@ -14,6 +14,7 @@ function Result(props) {
 					copy(props.shortURL);
 				}}
 				title="Copy to clipboard"
+				alt=""
 			/>
 		</div>
 	);

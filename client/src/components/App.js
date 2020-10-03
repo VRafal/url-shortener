@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import WelcomButton from "./WelcomButton";
 import Shortener from "./Shortener";
-import IcoLink from "../images/url-2.svg";
-import IcoCancel from "../images/cancel.svg";
 
 import "./App.scss";
 
 function App() {
-	const [isExpanded, setIsExpanded] = useState(true);
+	const [isExpanded, setIsExpanded] = useState(false);
 
 	const classExpand = isExpanded ? "expanded" : "";
 	const clasNameList = `usApp ${classExpand}`;

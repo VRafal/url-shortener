@@ -8,10 +8,10 @@ function App() {
 	const [isExpanded, setIsExpanded] = useState(false);
 
 	const classExpand = isExpanded ? "expanded" : "";
-	const clasNameList = `usApp ${classExpand}`;
+	//const clasNameList = `usApp ${classExpand}`;
 
 	return (
-		<div className={clasNameList}>
+		<div className={`usApp ${classExpand}`}>
 			{isExpanded ? <Shortener onCancle={() => setIsExpanded(!isExpanded)} /> : <WelcomButton onClick={() => setIsExpanded(!isExpanded)} />}
 		</div>
 	);

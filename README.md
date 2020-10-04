@@ -4,17 +4,14 @@ Prototype of the URL shortening application. This application includes a front w
 
 It is the **MVP version** of the application with includes functionalities necessary for the proof of concept implementation.
 
-![Flow Diagram](doc/flow-diagram.png)
-
 ## Business assumptions
 
 -   Easy embedding of the widget on any website.
 -   The application should work in the public domain and on private networks.
 
-## Benchmark
+## Flow diagram
 
--   [bit.ly](http://bit.ly)
--   [tiny.pl](http://tiny.pl)
+![Flow Diagram](doc/flow-diagram.png)
 
 ## MVP includes
 
@@ -46,6 +43,11 @@ It is the **MVP version** of the application with includes functionalities neces
 -   Multilanguage.
 -   Optional - QR Code generator for the created links.
 -   Administration panel for managing created links.
+
+## Benchmark
+
+-   [bit.ly](http://bit.ly)
+-   [tiny.pl](http://tiny.pl)
 
 ## Quickly installation and run
 

@@ -1,5 +1,7 @@
 # URL Shortener
 
+![alt](doc/flow-diagram.png)
+
 ## Overview
 
 ## MVP includes

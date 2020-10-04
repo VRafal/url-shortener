@@ -2,7 +2,7 @@
 
 Prototype of the URL shortening application. This application includes a front widget and a server side service, responsible for the creation and handling shortened links. The application widget can be embedded on any website.
 
-It is the MVP version of the application with includes functionalities necessary for the proof of concept implementation.
+It is the **MVP version** of the application with includes functionalities necessary for the proof of concept implementation.
 
 ![Flow Diagram](doc/flow-diagram.png)
 

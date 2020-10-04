@@ -11,8 +11,8 @@ It is the MVP version of the application with includes functionalities necessary
 
 ## Benchmark
 
--   bit.ly
--   tiny.pl
+-   [bit.ly](http://bit.ly)
+-   [tiny.pl](http://tiny.pl)
 
 ## MVP includes
 

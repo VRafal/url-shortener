@@ -2,7 +2,7 @@
 
 Prototype of the URL shortening application. This application includes a front widget and a server side service, responsible for the creation and handling shortened links. The application widget can be embedded on any website.
 
-It is the **MVP version** of the application with includes functionalities necessary for the proof of concept implementation.
+It is the **MVP version** of the application with includes functionalities necessary for the proof of concept implementation. After starting the application, the widget is displayed on a sample page.
 
 ## Business assumptions
 
@@ -33,6 +33,8 @@ It is the **MVP version** of the application with includes functionalities neces
 -   Fully styled widget layout.
 -   Layout adapted to the client's application.
 -   Database for storing urls.
+-   Script for widget build.
+-   Configuration for custom domain.
 
 ## Features
 
@@ -59,4 +61,4 @@ You must have installed Node.js and GIT to install and run this app. Clone the a
 
 ## License
 
-MIT Licensed. Copyright (c) Rafał Bernaczek 2020.
+MIT Licensed. Copyright (c) Rafał Bernaczek ak. VRB 2020.
